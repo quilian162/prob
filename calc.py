@@ -25,10 +25,10 @@ def main():
 
     #calculo da Formula
     proba = binomial_acc(n,x,p) #chamando a funcao
-    rafa = binomial(n,x,p) #chamando a funcao
+    kiki = binomial(n,x,p) #chamando a funcao
     print("\n")
     print(" A probabilidade Acumulativa é:  {:.4f}".format(proba))
-    print(" Distruibuição Binomial é : {:.4f} \n". format(rafa))
+    print(" Distruibuição Binomial é : {:.4f} \n". format(kiki))
 
 print(" === Programando a Formula binomial === ")
 print("\n")
