@@ -19,7 +19,7 @@ def binomial_acc(n, x, p): #calculo da acumulada
 def main():
     n = int(input("Informe n: "))
     x = int(input("Informe x: "))
-    pp = int(input("Informe p: "))
+    pp = int(input("Informe p (numero inteiro): "))
 
     p = (pp /100)
 
@@ -28,7 +28,7 @@ def main():
     kiki = binomial(n,x,p) #chamando a funcao
     print("\n")
     print(" A probabilidade Acumulativa é:  {:.4f}".format(proba))
-    print(" Distruibuição Binomial é : {:.4f} \n". format(kiki))
+    print(" A distruibuição Binomial é : {:.4f} \n". format(kiki))
 
 print(" === Programando a Formula binomial === ")
 print("\n")
